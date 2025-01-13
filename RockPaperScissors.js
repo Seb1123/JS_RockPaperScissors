@@ -45,6 +45,10 @@ function RPS(z) {
         if (player == 5) {
             player = 0
             comp = 0
+            const vicImg = document.querySelector("img");
+            const vicMsg = document.querySelector("h2.title");
+            vicImg.src = "./images/Hannibal_victory.jpg"
+            vicMsg.textContent = "Hannibal has defeated the Roman Empire!"
             result.textContent = ("You beat the computer, congratulations!")
         }
     } else if (b == 'Paper' && a == 'Rock') {
@@ -55,6 +59,10 @@ function RPS(z) {
         if (player == 5) {
             player = 0
             comp = 0
+            const vicImg = document.querySelector("img");
+            const vicMsg = document.querySelector("h2.title");
+            vicImg.src = "./images/Hannibal_victory.jpg"
+            vicMsg.textContent = "Hannibal has defeated the Roman Empire!"
             result.textContent = ("You beat the computer, congratulations!")
         }
     }  else if (b == 'Scissor' && a == 'Paper') {
@@ -65,6 +73,10 @@ function RPS(z) {
         if (player == 5) {
             player = 0
             comp = 0
+            const vicImg = document.querySelector("img");
+            const vicMsg = document.querySelector("h2.title");
+            vicImg.src = "./images/Hannibal_victory.jpg";
+            vicMsg.textContent = "Hannibal has defeated the Roman Empire!"
             result.textContent = ("You beat the computer, congratulations!")
         }
         
@@ -127,7 +139,6 @@ b2.addEventListener('click', () => RPS('Scissor'));
 
 const b3 = document.querySelector('button#paper');
 b3.addEventListener('click', () => RPS('Paper'));
-
 
 
 /*
