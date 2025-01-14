@@ -90,6 +90,10 @@ function RPS(z) {
         if (comp == 5) {
             player = 0
             comp = 0
+            const defImg = document.querySelector("img");
+            const defMsg = document.querySelector("h2.title");
+            defImg.src = "./images/Scipio_victory.jpg";
+            defMsg.textContent = "Scipio has successfully counter-attacked Rome!"
             result.textContent = ("The computer won, try again!")
         }
     } else if (b == 'Paper' && a == 'Scissor'){
@@ -100,6 +104,10 @@ function RPS(z) {
         if (comp == 5) {
             player = 0
             comp = 0
+            const defImg = document.querySelector("img");
+            const defMsg = document.querySelector("h2.title");
+            defImg.src = "./images/Scipio_victory.jpg";
+            defMsg.textContent = "Scipio has successfully counter-attacked Rome!"
             result.textContent = ("The computer won, try again!")
         }
     } else if (b == 'Scissor' && a =='Rock') {
@@ -110,6 +118,10 @@ function RPS(z) {
         if (comp == 5) {
             player = 0
             comp = 0
+            const defImg = document.querySelector("img");
+            const defMsg = document.querySelector("h2.title");
+            defImg.src = "./images/Scipio_victory.jpg";
+            defMsg.textContent = "Scipio has successfully counter-attacked Rome!"
             result.textContent = ("The computer won, try again!")
         }
     }
